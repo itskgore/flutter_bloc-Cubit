@@ -3,9 +3,8 @@ import 'package:cubitbloc/providers/cubit/movies_cubit.dart';
 import 'package:cubitbloc/repo/movieRepo.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
-import 'movieSearchCubit.dart';
+import '../cubitScreens/movieSearchCubit.dart';
 
 class MoviesApp extends StatefulWidget {
   MoviesApp({Key key}) : super(key: key);
